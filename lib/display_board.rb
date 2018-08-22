@@ -8,3 +8,5 @@ def display_board
   puts separation
   puts cell row cell row cell
   puts separation
+  puts cell row cell row cell
+end
