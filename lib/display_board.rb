@@ -7,5 +7,5 @@ def display_board
   puts "#{separation}"
   puts "#{cell}#{row}#{cell}#{row}#{cell}"
   puts "#{separation}"
-  return "#{cell}#{row}#{cell}#{row}#{cell}"
+  puts "#{cell}#{row}#{cell}#{row}#{cell}"
 end
