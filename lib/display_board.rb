@@ -4,9 +4,9 @@ def display_board
   row = "|"
   separation ="----------"
   puts "A Tic Tac Toe Board"
-  puts cell row cell row cell
-  puts separation
-  puts cell row cell row cell
-  puts separation
-  puts cell row cell row cell
+  puts "#{cell} #{row} #{cell} #{row} #{cell}"
+  puts "#{separation}"
+  puts "#{cell} #{row} #{cell} #{row} #{cell}"
+  puts "#{separation}"
+  puts "#{cell} #{row} #{cell} #{row} #{cell}"
 end
